@@ -19,6 +19,8 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer', platforms: :ruby
 group :development, :test do 
   gem 'rspec-rails', '~> 2.12.2'
+  gem 'spork-rails', github: 'railstutorial/spork-rails'
+  gem 'gemedit'
 end
 
 group :test do 
